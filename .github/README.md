@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/credential-providers`](https://www.npmjs.com/package/@aws-sdk/credential-providers/v/3.100.0).
+[`@aws-sdk/credential-providers`](https://www.npmjs.com/package/@aws-sdk/credential-providers/v/3.105.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.100.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.105.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IeF8bAGiWRBZIn/XMPsHKaJBZ8lWEZdX7lz8IgYDsHcC8fGEkpE+sjiuA6GRAYL/
+sha384-Q0B0afVwLD6jsd5r825pTaVHUuF7UJq+j2oX5SlS2PR/a7L7BOfw2mke0QpoF5LL
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/credential-providers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.100.0/index.min.mjs"
+            "@aws-sdk/credential-providers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.105.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.100.0/index.min.mjs": "sha384-IeF8bAGiWRBZIn/XMPsHKaJBZ8lWEZdX7lz8IgYDsHcC8fGEkpE+sjiuA6GRAYL/"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.105.0/index.min.mjs": "sha384-Q0B0afVwLD6jsd5r825pTaVHUuF7UJq+j2oX5SlS2PR/a7L7BOfw2mke0QpoF5LL"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/credential-providers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.100.0/index.min.mjs"
+                        "@aws-sdk/credential-providers": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.105.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.100.0/index.min.mjs": "sha384-IeF8bAGiWRBZIn/XMPsHKaJBZ8lWEZdX7lz8IgYDsHcC8fGEkpE+sjiuA6GRAYL/"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/credential-providers@3.105.0/index.min.mjs": "sha384-Q0B0afVwLD6jsd5r825pTaVHUuF7UJq+j2oX5SlS2PR/a7L7BOfw2mke0QpoF5LL"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.100.0`)
+* Always pin to a specific version (`@3.105.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/credential-providers/blob/refs/tags/3.100.0/LICENSE
+https://github.com/cloud-sdk-builds/credential-providers/blob/refs/tags/3.105.0/LICENSE
 ```
 
 ---
